@@ -1,0 +1,24 @@
+.card {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-right: 1px;
+    padding: 1.5px;
+}
+  
+.card img {
+    height: 70%;
+    border-radius: 2%;
+}
+.card img:hover{
+    transform: scale(1.25);
+    margin-bottom: 50px;
+    transition: 0.5s;
+    z-index: 10;
+    border-radius: 2%;
+    cursor: pointer;
+}
+.card img:hover .card{
+    transform:scale(1.5);
+}
+

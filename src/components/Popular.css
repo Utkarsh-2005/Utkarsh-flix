@@ -1,0 +1,17 @@
+.popular-tab{
+    margin-top: 100px;
+    margin-left: 50px;
+    z-index: -2;
+    width:200px;
+}
+.main-tab{
+    margin-bottom: -120px;
+}
+.main-tab.waiting {
+    visibility:hidden;
+}
+.popular-tab > p{
+    font-size:18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}

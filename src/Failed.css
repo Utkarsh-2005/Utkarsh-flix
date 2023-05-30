@@ -1,0 +1,29 @@
+.loading{
+    color: black;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.loading > p{
+    color: black;
+}
+.main{
+    height:600px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    opacity:0.6;
+}
+.main.scrolled{
+    opacity:1;
+    transition: ease-in 0.5s;
+}
+.main.scrolled .loading{
+    color: white;
+    transition: ease-in 0.25s;
+}
+.main.scrolled > .loading > p{
+    color: white;
+    transition: ease-in 0.25s;
+}
