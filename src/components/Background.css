@@ -15,7 +15,7 @@
 .gradient2{
     background-image: linear-gradient(180deg, rgb(0, 0, 0, 0), rgb(20,20,20));
     position: absolute;
-    bottom:-110px;
+    bottom:-140px;
     width: 100%;
     min-height: 60%;
     z-index:-1;
